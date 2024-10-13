@@ -199,6 +199,18 @@ body {
     visibility: hidden;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
 @container (min-width: calc(350px * 2 + 4em)) {
     .intro {
         text-align: left;
