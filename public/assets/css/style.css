@@ -74,7 +74,7 @@ body {
         align-content: center;
 
         .intro__heading {
-            font-size: var(--fs-step-3);
+            font-size: var(--fs-step-4);
             line-height: 1.3;
         }
 
